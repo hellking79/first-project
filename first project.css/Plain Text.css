@@ -2,3 +2,12 @@ body {
     background-color: black;
     color: aliceblue;
   }
+  header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: .5rem 1rem;
+  }
+header .menu a{
+    margin-left: .75rem;
+}
