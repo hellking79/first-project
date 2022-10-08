@@ -1,6 +1,7 @@
 body {
     background-color: black;
-    color: aliceblue;
+    color: white;
+    
   }
   header{
     display: flex;
@@ -15,8 +16,47 @@ header .menu a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: black;
 }
-.up{
-    background-color:darkblue;
+ .up{
+    background-color:white;
 
+}
+.container-2{
+    display: flex;
+    background-color: white;
+    color: black;
+    position: relative;
+    padding: 50px;
+    justify-content: center;
+    
+}
+.info{
+    margin-bottom: 100px;
+    position: absolute;
+    top: 10px;
+}
+.ill{
+display: flex;
+gap: 50px;
+}
+.a{
+    border: 5px solid brown;
+    padding: 100px;
+}
+.container-3{
+    background-color: gray;
+    color: black;
+    padding: 50px;
+}
+.container-4{
+    background-color: blue;
+    
+}
+.cont{
+    display: flex;
+    align-self: flex-end;
+    background-color: blue;
+    border: solid white;
+   
 }
